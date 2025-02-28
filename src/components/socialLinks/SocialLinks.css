@@ -1,0 +1,21 @@
+.socialLinks {
+    height: 40px;
+    margin-top: 80px;
+}
+
+.socialLinks ul {
+    display: flex;
+    list-style: none;
+}
+
+.socialLinks ul li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
