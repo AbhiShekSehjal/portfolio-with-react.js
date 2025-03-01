@@ -1,0 +1,27 @@
+.intro {
+    position: absolute;
+    left: 30px;
+    width: 540px;
+    height: 275px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.349);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.introBox {
+    padding: 30px 20px 70px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #444444;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444444;
+    line-height: 25px;
+    margin-top: 20px;
+}

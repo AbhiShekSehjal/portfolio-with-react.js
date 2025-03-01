@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Navbar.css"
-import PlagiarismIcon from '@mui/icons-material/Plagiarism';
+import CvButton from '../buttons/CvButton'
 
 function Navbar() {
+
     return (
         <>
             <div className="navbar">
@@ -17,9 +18,7 @@ function Navbar() {
                     </ul>
                 </div>
 
-                <div className="CvButton">
-                    <button><a href="#CvButton">Download CV <PlagiarismIcon fontSize="small" /></a></button>
-                </div>
+                <CvButton />
             </div>
         </>
     )

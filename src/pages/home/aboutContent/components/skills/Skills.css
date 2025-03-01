@@ -1,0 +1,32 @@
+.skills {
+    position: absolute;
+    right: 30px;
+    width: 540px;
+    height: 275px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.349);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.skillBox {
+    padding: 30px 20px 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    display: inline;
+    font-size: 16px;
+    font-weight: 800;
+    color: #444444;
+}
+
+.list {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+}

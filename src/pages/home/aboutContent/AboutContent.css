@@ -1,0 +1,16 @@
+.aboutContent {
+    height: 570px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutText {
+    align-self: flex-start;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "poppins", "sans-serif";
+    margin-bottom: 10px;
+    color: #444444;
+}
