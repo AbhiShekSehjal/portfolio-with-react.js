@@ -17,6 +17,7 @@ a {
     z-index: 111;
     box-shadow: 0px 0px 1px 2px #44444418;
     background-color: white;
+    z-index: 2222;
 }
 
 .logo {
@@ -57,4 +58,34 @@ a {
 
 .pageLinks ul li a:hover {
     color: #6e57ff;
+}
+
+.hamburger {
+    opacity: 0;
+}
+
+@media (max-width:950px) {
+    .CvButton {
+        display: none;
+    }
+
+    .pageLinks {
+        display: none;
+    }
+
+    .navbar {
+        height: 50px;
+        width: 100%;
+    }
+
+    .hamburger {
+        opacity: 1;
+        position: absolute;
+        right: 5px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 5px;
+    }
 }

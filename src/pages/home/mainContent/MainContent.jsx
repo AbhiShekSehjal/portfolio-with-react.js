@@ -8,13 +8,15 @@ import MyBadge from '../../../components/badges/MyBadge';
 function MainContent() {
 
     return (
+
+
         <div className="mainContent">
             <div className="leftMainContent">
 
                 <MyBadge name="Abhishek Sehjal" />
 
                 <h1>I'm <span className='spanText2'>Web Developer</span></h1>
-                <p>Frontend Developer With A Passion For Creating Visually Stunning And User-Friendly Websites.</p>
+                <p className='mainPera'>Frontend Developer With A Passion For Creating Visually Stunning And User-Friendly Websites.</p>
 
                 <div className='Cvbtn'>
                     <CvButton />
@@ -22,15 +24,15 @@ function MainContent() {
 
                 <HireButton />
 
-                <SocialLinks />
+                <SocialLinks className="mainSocialLinks" />
 
             </div>
 
             <div className="rightMainContent">
                 <div className="heroImage"></div>
-                {/* <div className="heroImage" style={{ backgroundImage: `url(${img1})` }}></div> */}
             </div>
         </div>
+
     )
 }
 

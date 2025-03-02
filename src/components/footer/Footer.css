@@ -1,0 +1,46 @@
+.footer {
+    height: 350px;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.MyName {
+    align-self: flex-start;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "poppins", "sans-serif";
+    margin-bottom: 50px;
+    color: #444444;
+    padding-top: 30px;
+}
+
+.pageLinksOfFooter {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageLinksOfFooter ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.pageLinksOfFooter ul li a {
+    color: #444444;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+
+.pageLinksOfFooter ul li a:hover {
+    color: #6e57ff;
+}
+
+.footerSocialLinks {
+    display: flex;
+    justify-content: center;
+}

@@ -2,11 +2,12 @@ import React from 'react'
 import "./projectCard.css"
 import SourceIcon from '@mui/icons-material/Source';
 
-function ProjectCard() {
+function ProjectCard({ name }) {
     return (
         <div className="projectCard">
-            <SourceIcon style={{ color: "#00c9ff" }} fontSize='large' />
-            <h2>JS projects</h2>
+            <i><SourceIcon fontSize='large' /></i>
+            <h2>{name}</h2>
+            <div className="outerEffect"></div>
         </div>
     )
 }

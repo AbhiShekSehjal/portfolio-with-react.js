@@ -17,10 +17,10 @@ function SocialLinks() {
         return (
             <div className="socialLinks">
                 <ul>
-                    <li><a href={links.InstaLink}><InstagramIcon fontSize='small' /></a></li>
-                    <li><a href={links.FbLink}><FacebookIcon fontSize='small' /></a></li>
-                    <li><a href={links.GitLink}><GitHubIcon fontSize='small' /></a></li>
-                    <li><a href={links.LinkedInLink}><LinkedInIcon fontSize='small' /></a></li>
+                    <li><a href={links.InstaLink.toString()}><InstagramIcon fontSize='small' /></a></li>
+                    <li><a href={links.FbLink.toString()}><FacebookIcon fontSize='small' /></a></li>
+                    <li><a href={links.GitLink.toString()}><GitHubIcon fontSize='small' /></a></li>
+                    <li><a href={links.LinkedInLink.toString()}><LinkedInIcon fontSize='small' /></a></li>
                 </ul>
             </div>
         )

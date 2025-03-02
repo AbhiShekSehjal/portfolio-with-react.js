@@ -12,7 +12,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: white;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,6 +21,12 @@
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.349);
 }
 
-.socialLinks ul li:hover a{
+.socialLinks ul li:hover a {
     color: #6e57ff;
+}
+
+@media (max-width:320px) {
+    .socialLinks {
+        display: none;
+    }
 }

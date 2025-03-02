@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import CvButton from '../buttons/CvButton'
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 function Navbar() {
 
@@ -18,7 +19,9 @@ function Navbar() {
                     </ul>
                 </div>
 
-                <CvButton />
+                <CvButton className="CvButton" />
+
+                <MenuOpenIcon className='hamburger'/>
             </div>
         </>
     )

@@ -1,0 +1,57 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+#name {
+    border: 1px solid;
+    width: 49%;
+    height: 50px;
+    box-shadow: 3px 1px 1px 0px rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#email {
+    border: 1px solid;
+    width: 49%;
+    height: 50px;
+    box-shadow: 3px 1px 1px 0px rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#msg {
+    border: 1px solid;
+    width: 100%;
+    height: 180px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 3px 1px 1px 0px rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    resize: none;
+}
+
+button {
+    width: 84px;
+    height: 37px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.349);
+    font-weight: 600;
+    background-color: transparent;
+    transition: 0.2s ease-in;
+    background-color: #ffffff;
+}
+
+button:hover {
+    font-weight: 900;
+}
