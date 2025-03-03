@@ -17,10 +17,10 @@ function Footer() {
                 </ul>
             </div>
 
-            <div className="footerSocialLinks"><SocialLinks /></div>
+            <SocialLinks />
 
 
-            <p>Created by © <a href="#" style={{color:"blue"}}>Abhishek Sehjal</a></p>
+            <p className='footerLastLine'>Created by © <a href="#" style={{ color: "blue" }}>Abhishek Sehjal</a></p>
         </div>
     )
 }

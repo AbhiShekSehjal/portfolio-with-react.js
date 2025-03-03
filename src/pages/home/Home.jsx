@@ -10,7 +10,6 @@ function Home() {
     return (
         <>
             <Navbar />
-            <hr></hr>
             <MainContent />
             <hr></hr>
             <AboutContent />

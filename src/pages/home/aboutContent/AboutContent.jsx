@@ -6,14 +6,13 @@ import Skills from './components/skills/Skills'
 function AboutContent() {
     return (
         <div className="aboutContent">
-            <div className='AboutText' style={{ textAlign: "center" }}>AboutContent</div>
+            <div className='AboutText'>About Content</div>
 
-            <div className="boxesAbout">
+            <div className="aboutBoxes">
                 <Intro />
 
                 <Skills />
             </div>
-
         </div>
     )
 }

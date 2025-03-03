@@ -110,10 +110,14 @@
     }
 
     .ContactMe {
-        height: 779px;
+        height: 800px;
     }
 
     .boxes {
         gap: 20px;
+    }
+
+    .email {
+        font-size: 14px;
     }
 }
