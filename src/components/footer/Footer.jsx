@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer">
             <div className="MyName" >Abhisehk Sehjal</div>
 
-            <div iv className="pageLinksOfFooter">
+            <div className="pageLinksOfFooter">
                 <ul>
                     <li><a href="#pageLinks">Home</a></li>
                     <li><a href="#pageLinks">About</a></li>

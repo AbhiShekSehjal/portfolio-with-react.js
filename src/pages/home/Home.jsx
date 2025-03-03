@@ -17,7 +17,6 @@ function Home() {
             <Projects />
             <hr></hr>
             <ContactMe />
-            <hr></hr>
             <Footer />
         </>
     )
