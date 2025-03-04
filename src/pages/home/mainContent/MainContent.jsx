@@ -19,7 +19,7 @@ function MainContent() {
                 <p className='mainPera'>Frontend Developer With A Passion For Creating Visually Stunning And User-Friendly Websites.</p>
 
                 <div className='Cvbtn'>
-                    <CvButton />
+                    <CvButton/>
                 </div>
 
                 <HireButton />

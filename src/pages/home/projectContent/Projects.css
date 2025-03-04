@@ -22,7 +22,7 @@
 
 @media (max-width:320px) {
     .projectContent {
-        height: 1790px;
+        height: 1790px !important;
     }
 
     .projects {
@@ -31,5 +31,25 @@
 
     .projectText {
         font-size: 24px;
+    }
+}
+
+@media (max-width:480px) {
+    .projectContent {
+        height: 2150px;
+    }
+    
+    .projectText {
+        font-size: 24px;
+    }
+}
+@media (max-width:768px) {
+    .projectContent {
+        height: 2150px;
+    }
+}
+@media (max-width:1025px) {
+    .projectContent {
+        height: 1150px;
     }
 }

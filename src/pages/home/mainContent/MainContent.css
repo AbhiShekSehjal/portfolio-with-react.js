@@ -16,7 +16,7 @@
 .Cvbtn {
     width: 33%;
     position: relative;
-    left: 80px;
+    left: 150px;
 }
 
 .spanText2 {
@@ -77,13 +77,13 @@ h1 {
         right: 0;
     }
 
-    .heroImage {
+    .heroImage  {
         background-image: url("/heroImage.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
-        height: 100%;
-        width: 100%;
+        height: 100% !important ;
+        width: 100% !important;
         border-radius: 0%;
         position: relative;
         right: 0;
@@ -96,9 +96,6 @@ h1 {
         display: none;
     }
 
-    .leftMainContent {}
-
-
     .spanText2 {
         color: #00C9FF;
     }
@@ -110,4 +107,20 @@ h1 {
     .mainPera {
         color: white !important;
     }
+}
+
+@media (max-width:768px) {
+    .heroImage {
+        height: 340px;
+        width: 340px;
+    }
+
+    
+}
+
+@media (max-width:1025px) {
+    /* .Cvbtn{
+       position: relative;
+       left: 150px !important;
+    } */
 }

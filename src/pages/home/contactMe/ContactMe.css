@@ -121,3 +121,47 @@
         font-size: 14px;
     }
 }
+
+@media (max-width:481px) {
+    .ContactMe {
+        height: 860px;
+    }
+
+    .boxes {
+        gap: 40px;
+    }
+
+    .ContactMeText {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .ContactMe {
+        height: 860px;
+    }
+
+    .boxes {
+        gap: 40px;
+    }
+
+    .ContactMeText {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:1025px) {
+    .ContactMe {
+        height: 860px;
+    }
+
+    .boxes {
+        gap: 40px;
+    }
+
+    .ContactMeText {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}

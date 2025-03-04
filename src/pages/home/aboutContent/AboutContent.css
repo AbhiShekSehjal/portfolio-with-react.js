@@ -6,7 +6,6 @@
     padding: 30px 0px;
     text-align: center;
     padding: 30px 30px;
-
 }
 
 .AboutText {
@@ -48,8 +47,21 @@
     
     .aboutContent {
         align-items: start;
-        height: 750px;
+        height: 900px;
         display: block;
        
+    }
+}
+
+@media (max-width:768px) {
+    .aboutContent {
+        height: 770px;
+        justify-content: start;
+    }
+}
+@media (max-width:1025px) {
+    .aboutContent {
+        height: 770px;
+        justify-content: start;
     }
 }
